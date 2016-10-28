@@ -10,3 +10,6 @@ def fib(n):
         a, b = b, a+b
 
     return l
+
+for i in range(0,10):
+	print (fib(i))
